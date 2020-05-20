@@ -1,0 +1,25 @@
+
+npm install -g expo-cli:install expo
+
+
+npm run eject:to get ios and android files
+
+expo init AwesomeProject
+cd AwesomeProject
+npm start:To start expo
+
+//Downlaod expo app in phone as well
+
+//expo way of ejecting app
+in app.json add
+"android":{
+	"package":"in.jainmayank.XYZ"
+	},//For IOS bundel identifier
+
+cd to directory
+expo start
+Ctrl^C
+expo build:android
+SignIn(If already once then no need )
+Selet Options
+Go to expo site to download the build 
